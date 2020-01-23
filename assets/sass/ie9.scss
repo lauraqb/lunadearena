@@ -1,0 +1,17 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+
+/* Header */
+
+	#nav {
+		> ul {
+			> li {
+				&.current {
+					&:before {
+						display: none;
+					}
+				}
+			}
+		}
+	}

@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Luna de Arena - Apartamentos con encanto en Menorca, Marrakech y Granada</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="../assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="../assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+			<!-- Header -->
+			<div id="header"></div>
+			
+		<center>
+		<nav id="subnav">
+		</nav>
+		</center>
+		<!-- Main -->
+		<!-- Main -->
+		<section class="wrapper style1">
+			<div class="container">
+				<div class="row 200%">
+					<div class="8u 12u(narrower) important(narrower)">
+						<div id="content">
+							<!-- Content -->
+							<article>
+								<header>
+									<h2>Arenal d'en Castell</h2>
+									<p>Arenal d'en Castell está situado en la costa norte menorquina. Pertenece al 
+									municipio de Mercadal (2600 habitantes), donde se encuentra el punto más 
+									elevado de la isla: el monte Toro, que alcanza los 355 m. La zona cuenta con 
+									magníficas playas y calas y paisajes espectaculares.</p>
+								</header>
+								<div id="map"></div>
+								</br></br>
+								<span class="image featured"><img src="../images/mapa.jpg" alt="" /></span>
+							</article>
+						</div>
+					</div>
+					<div class="4u 12u(narrower)">
+						<div id="sidebar2">
+							<!-- Sidebar 2 -->
+							<section class="small-size">
+								<h2>CÓMO LLEGAR</h2>
+								<span class="letra10">
+									<h3>DESDE CIUTADELLA</h3>
+									<p>
+									Tomar la carretera a Mahón hasta Mercadal. En Mercadal, coger el desvío hacia Fornells/playas costa norte. 
+									Antes de llegar a Fornells hay una rotanda, tomar la primera salida a la derecha en dirección  a Arenal d'en Castell. Seguir recto 
+									(varios kms.) hasta otra rotonda que indica a la izquierda Arenal d'en Castell. Siguiendo esta 
+									dirección se hallará enfrente un gran hotel llamado Aquamarine. Girando a la izquierda está 
+									la entrada a la urbanización. A partir de ahí se ha de seguir el plano de la web.
+									</p>
+									<h3>DESDE EL AEROPUERTO</h3>
+									<p>Tomar la rotonda en dirección al puerto de Mahón; en la siguiente rotonda, al final de la bajada, tomar la salida en dirección  a 
+									FORNELLS, seguir aprox.11 km. hasta otra rotonda que indica a la derecha Arenal D'en Castell. 
+									Siguiendo esta dirección, tras pasar otra rotonda, se hallará en frente de  un hotel llamado AguaMarina.  A partir de ahí se ha de seguir el plano de nuestra web.</p>
+									<h3>DESDE EL PUERTO DE MAHÓN</h3>
+									<p>Salir a la derecha por la vía que va junto al muelle y en la primera rotonda tomar la salida  en dirección a Fornells. Continuar aprox.11km hasta 
+									otra rotonda que indica a la derecha Arenal D'en Castell. Siguiendo esta dirección se hallará en frente un  hotel 
+									llamado AguaMarina.  
+									A partir de ahí se ha de seguir el plano de nuestra web.</p>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		</div>
+
+		<!-- Scripts -->
+			<script>
+				function initMap() {
+				  var mapDiv = document.getElementById('map');
+				  var map = new google.maps.Map(mapDiv, {
+					  center: {lat: 39.955665, lng: 4.107938 },
+					  zoom: 10
+				  });
+				  var marker = new google.maps.Marker({
+					  position:  {lat: 40.019172, lng: 4.180646},
+					  map: map,
+					  title: 'Hello World!'
+					});
+				}
+			</script>
+			<script async defer
+				src="https://maps.googleapis.com/maps/api/js?key=ponerAquiApiKeyg&callback=initMap">
+			</script>
+						
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/menus.js"></script>
+	</body>
+</html>
